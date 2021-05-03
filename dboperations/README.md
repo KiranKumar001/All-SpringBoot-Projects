@@ -21,8 +21,11 @@ Exception -> GlobalExceptionHandler
 
 ## DB details and connection parameters
 -spring.datasource.url=jdbc:postgresql://localhost:5432/employees
+
 -spring.datasource.username=postgres
+
 -spring.datasource.password=******
+
 -spring.jpa.show-sql=true
 
 ## Hibernate Properties
