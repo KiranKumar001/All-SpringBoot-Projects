@@ -42,5 +42,11 @@ Framework that allows async communication between applications
   
 - Run Application
  java -jar spring-mq-0.0.1.jar
+  
+- Publish msg to MQ
+PUT: localhost:8080/api/v1/put/Hello!!!
+  
+- Get Msg from MQ
+GET: localhost:8080/api/v1/get
 
 
